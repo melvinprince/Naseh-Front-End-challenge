@@ -23,7 +23,8 @@ body {
   box-sizing: border-box;
 }
 
-.intro-bg {
+.intro-bg,
+.why-choose {
   background-image: linear-gradient(
       to right,
       rgba(14, 35, 69, 0.9) 50%,
@@ -33,4 +34,17 @@ body {
   background-size: 100%;
   object-fit: cover;
   height: 35rem;
+}
+
+.mockup-container img {
+  transform: scale(2.5);
+}
+
+.mockup-container .img-1,
+.mockup-container .img-3 {
+  transform: translateY(60%) scale(2.5) translateX(-1%);
+}
+
+.mockup-container .img-2 {
+  transform: translateY(-80%) scale(2.5) translateX(-1%);
 }

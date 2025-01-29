@@ -31,7 +31,7 @@ export default function BookConsultation() {
   };
 
   return (
-    <div className="bg-(--color-primary) w-[75%] text-black relative top-5 rounded-lg">
+    <div className="bg-(--color-primary) w-[75%] text-black relative top-5 rounded-lg z-10">
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col justify-center items-center pt-7">
           <div className="flex gap-20 divide-x divide-gray-200 py-5 text-sm mb-10">

@@ -2,7 +2,11 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 
 export default function Features() {
   return (
-    <div className="bg-(--color-tertiary)">
+    <div className="bg-(--color-tertiary) relative flex h-[30rem] justify-center items-end pb-20">
+      <div className="absolute top-30 left-3">
+        <img src="/whatsapp.png" alt="" className="h-15" />
+        <img src="/customer Service.png" alt="" className="h-12 rounded-full" />
+      </div>
       <FeatureList
         heading={"Reliable Legal Services"}
         description={
@@ -33,11 +37,11 @@ export default function Features() {
 
   function FeatureList({ heading, description }) {
     return (
-      <div className="text-center">
-        <span className="text-green-500">
+      <div className="text-center w-[20%]">
+        <span className="text-green-500 bg-green-500/10 p-3 rounded-full inline-block">
           <VerifiedIcon />
         </span>
-        <h3>{heading}</h3>
+        <h3 className="text-xl py-4">{heading}</h3>
         <p>{description}</p>
       </div>
     );
