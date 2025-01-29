@@ -8,7 +8,7 @@ import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 export default function LegalServiceTypes() {
   return (
     <div className="bg-(--color-primary) mt-20 w-[80%] flex flex-col mx-auto">
-      <div className="flex justify-between items-center">
+      <div className="legal-parent flex justify-between items-center">
         <div>
           <span className="text-xs text-(--color-logo-text)">Services</span>
           <h2 className="text-3xl font-bold">A wide range of legal services</h2>
@@ -18,7 +18,7 @@ export default function LegalServiceTypes() {
           <span className="bg-gray-100 p-2 rounded-full">&rarr;</span>
         </a>
       </div>
-      <div className="flex flex-wrap justify-between items-center mt-20 gap-6">
+      <div className=" flex flex-wrap justify-between items-center mt-20 gap-6">
         <ServiceTypes
           logo={<EditCalendarIcon />}
           heading={"Scheduled Consultations"}
@@ -61,7 +61,7 @@ export default function LegalServiceTypes() {
 
   function ServiceTypes({ logo, heading, buttonText, spanColor }) {
     return (
-      <div className="w-[30%] border-1 border-gray-200 p-5 flex flex-col">
+      <div className="w-[30%] border-1 border-gray-200 p-5 flex flex-col legal-item">
         <div className="flex justify-between items-center mb-5">
           <span className={spanColor + " p-4"}>{logo}</span>
           <div className="flex flex-col gap-1 pl-4">

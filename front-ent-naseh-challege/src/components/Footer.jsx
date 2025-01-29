@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 export default function Footer() {
   return (
-    <div className="w-[80%] mx-auto flex pb-20 pt-10 gap-30">
+    <div className="footer w-[80%] mx-auto flex pb-20 pt-10 gap-30">
       <div className="flex flex-col">
         <Logo type="big" />
         <p className="py-8 w-[50%]">
@@ -24,7 +24,7 @@ export default function Footer() {
   );
   function About() {
     return (
-      <div className="flex flex-col gap-3">
+      <div className=" flex flex-col gap-3">
         <h3 className="font-bold text-xl">About</h3>
         <ul>
           <li>
@@ -49,9 +49,9 @@ export default function Footer() {
 
   function Support() {
     return (
-      <div className="flex flex-col gap-3">
+      <div className="footer-none footer-flex flex flex-col gap-3">
         <h3 className="font-bold text-xl">Support</h3>
-        <ul>
+        <ul className="footer-none">
           <li>
             <a href="#">Contact Us</a>
           </li>
@@ -67,9 +67,9 @@ export default function Footer() {
   }
   function LegalLinks() {
     return (
-      <div className="flex flex-col gap-3">
+      <div className="footer-none footer-flex flex flex-col gap-3">
         <h3 className="font-bold text-xl">Legal Links</h3>
-        <ul>
+        <ul className="footer-none">
           <li>
             <a href="#">Privacy Policy</a>
           </li>

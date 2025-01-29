@@ -3,8 +3,8 @@ import EmailSharpIcon from "@mui/icons-material/EmailSharp";
 
 export default function Newsletter() {
   return (
-    <div className="bg-(--color-tertiary) pb-25">
-      <div className="w-[80%] mx-auto h-[30rem] flex items-end justify-between">
+    <div className="news-letter-parent bg-(--color-tertiary) pb-25">
+      <div className="news-letter w-[80%] mx-auto h-[30rem] flex items-end justify-between">
         <div className="flex flex-col gap-3">
           <h3 className="text-3xl font-bold">Newsletter</h3>
           <p className="text-gray-500 w-[70%]">
@@ -26,6 +26,12 @@ export default function Newsletter() {
                   },
                   "@media (max-width: 1300px)": {
                     width: "500px",
+                  },
+                  "@media (max-width: 900px)": {
+                    width: "300px",
+                  },
+                  "@media (max-width: 425px)": {
+                    width: "100%",
                   },
                 },
                 startAdornment: (
@@ -50,6 +56,9 @@ export default function Newsletter() {
                         },
                         "@media (max-width: 1300px)": {
                           width: "80px",
+                        },
+                        "@media (max-width: 900px)": {
+                          width: "60px",
                         },
                       }}
                     >

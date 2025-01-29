@@ -4,7 +4,7 @@ import BookConsultation from "./BookConsultation";
 
 export default function Introduction() {
   return (
-    <div className="intro-bg flex flex-col justify-between items-center text-(--color-primary) relative">
+    <div className="intro-bg flex flex-col justify-between items-center text-(--color-primary) relative intro-div">
       <div className="flex w-[80%] justify-center items-center border-b-1 border-(--color-primary)/20 py-10 mb-40">
         <div className="flex items-center gap-5 pr-30">
           <div className="bg-blue-500/10 p-2 rounded-sm ">

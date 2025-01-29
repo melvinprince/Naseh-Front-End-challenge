@@ -5,6 +5,12 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
+@media (max-width: 630px) {
+  .accordion {
+    display: inline-block;
+    margin: 50px;
+  }
+}
 
 .item {
   width: 100%; /* Adjust width to fit within the grid */
@@ -22,6 +28,12 @@
   align-items: center;
 }
 
+@media (max-width: 630px) {
+  .item {
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
 .number {
   font-size: 24px;
   font-weight: 500;

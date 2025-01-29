@@ -6,7 +6,7 @@ import AddLocationAltOutlinedIcon from "@mui/icons-material/AddLocationAltOutlin
 export default function Contact() {
   return (
     <div className="py-10 ">
-      <div className="flex justify-between border-b-1 pb-12 border-gray-200 w-[80%] mx-auto">
+      <div className="contact-div flex justify-between border-b-1 pb-12 border-gray-200 w-[80%] mx-auto">
         <ContactCard logo={<MailOutlineOutlinedIcon />} text={"Get in Touch"} />
         <ContactCard logo={<PhoneCallbackOutlinedIcon />} text={"Lets Talk"} />
         <ContactCard logo={<ReceiptLongOutlinedIcon />} text={"CR Number"} />

@@ -3,7 +3,7 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 export default function Features() {
   return (
     <div className="features-div bg-(--color-tertiary) relative flex h-[30rem] justify-center items-end pb-20">
-      <div className="absolute top-30 left-3">
+      <div className="features-fixed absolute top-30 left-3">
         <img src="/whatsapp.png" alt="" className="h-15" />
         <img src="/customer Service.png" alt="" className="h-12 rounded-full" />
       </div>

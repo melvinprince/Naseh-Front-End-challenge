@@ -1,8 +1,8 @@
 export default function Blog() {
   return (
     <div className="bg-(--color-tertiary)">
-      <div className="flex flex-col w-[80%] mx-auto py-25">
-        <div className="flex justify-between">
+      <div className=" flex flex-col w-[80%] mx-auto py-25">
+        <div className="blog-parent flex justify-between">
           <div>
             <span className="text-(--color-logo-text) font-bold">
               Community
@@ -14,7 +14,7 @@ export default function Blog() {
             <span className="bg-gray-200 p-2 rounded-full">&rarr;</span>
           </a>
         </div>
-        <div className="flex gap-10">
+        <div className="blog-parent flex gap-10">
           <BlogPost img="/4.png" />
           <BlogPost img="/2.png" />
           <BlogPost img="/3.png" />
@@ -34,7 +34,7 @@ export default function Blog() {
         <span className="text-(--color-logo-text) font-bold">
           {date || "June 23, 2024"} | {topic || "Legal Communication"}
         </span>
-        <h3 className="text-2xl font-bold">
+        <h3 className="text-2xl">
           {heading || "Avoiding Trouble: Common Legal Mistakes to Keep Away"}
         </h3>
         <p className="w-[80%]">
