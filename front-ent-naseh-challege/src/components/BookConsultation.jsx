@@ -84,7 +84,7 @@ export default function BookConsultation() {
 
   function DropDown({ heading, logo, options, name, value, onChange }) {
     return (
-      <div className="flex items-center px-2 justify-between">
+      <div className="book-consultation-content-item flex items-center px-2 justify-between">
         <span className="text-(--color-logo-text) bg-(--color-logo-text)/10 mr-5 rounded-[50%] h-10 w-10 flex justify-center items-center">
           {logo}
         </span>

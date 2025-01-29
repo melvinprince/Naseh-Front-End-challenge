@@ -24,6 +24,9 @@ export default function Newsletter() {
                   "& fieldset": {
                     borderRadius: "30px",
                   },
+                  "@media (max-width: 1300px)": {
+                    width: "500px",
+                  },
                 },
                 startAdornment: (
                   <InputAdornment position="start">
@@ -44,6 +47,9 @@ export default function Newsletter() {
                         fontSize: "14px",
                         "&:hover": {
                           backgroundColor: "#121312",
+                        },
+                        "@media (max-width: 1300px)": {
+                          width: "80px",
                         },
                       }}
                     >

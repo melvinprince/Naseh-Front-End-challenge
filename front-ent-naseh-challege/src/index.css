@@ -57,3 +57,43 @@ body {
     width: 100%;
   }
 }
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 980px) {
+  .book-consultation-content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .book-consultation-content-item {
+    flex-basis: 45%;
+  }
+  .cta-div {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cta-div p {
+    width: 100%;
+  }
+
+  .cta-child-div {
+    justify-content: space-evenly;
+  }
+
+  .features-div {
+    flex-wrap: wrap;
+    position: block;
+    align-items: flex-end;
+  }
+
+  .features-item {
+    flex-basis: 45%;
+  }
+}

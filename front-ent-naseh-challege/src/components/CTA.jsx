@@ -4,7 +4,7 @@ import ControlPointOutlinedIcon from "@mui/icons-material/ControlPointOutlined";
 export default function CTA() {
   return (
     <div className="bg-(--color-secondary) py-25 ">
-      <div className="flex mx-auto w-[80%] text-white">
+      <div className="flex mx-auto w-[80%] text-white cta-div">
         <div>
           <img src="/chart.png" alt="" className="h-120 w-180" />
         </div>
@@ -18,7 +18,7 @@ export default function CTA() {
             culpa at, magnam odio perspiciatis placeat voluptates esse debitis
             laborum.
           </p>
-          <div className="flex flex-wrap gap-5">
+          <div className="flex flex-wrap gap-5 cta-child-div">
             <span className="cta-green-check bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
               <CheckCircleRoundedIcon className="text-green-500" />
               &nbsp;&nbsp; Expannd your Customer netwrok

@@ -10,7 +10,7 @@ export default function LawFirmList() {
           Specialized Lawyers around the Clock
         </h2>
       </div>
-      <div className="flex gap-10 overflow-hidden mb-25 ">
+      <div className="flex gap-10 overflow-hidden mb-25 flex-wrap justify-center">
         <LawFirmItem heading="Al Oawi Firm" src="/5.png" />
         <LawFirmItem heading="Sala For Law" src="/4.png" />
         <LawFirmItem heading="Al Ansari Law" src="/1.png" />
