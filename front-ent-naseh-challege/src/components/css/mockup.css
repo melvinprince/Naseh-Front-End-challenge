@@ -1,0 +1,12 @@
+.mockup-container img {
+  transform: scale(2.5);
+}
+
+.mockup-container .img-1,
+.mockup-container .img-3 {
+  transform: translateY(60%) scale(2.5) translateX(-1%);
+}
+
+.mockup-container .img-2 {
+  transform: translateY(-80%) scale(2.5) translateX(-1%);
+}

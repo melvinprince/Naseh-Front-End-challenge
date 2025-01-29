@@ -19,19 +19,19 @@ export default function CTA() {
             laborum.
           </p>
           <div className="flex flex-wrap gap-5">
-            <span className="bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
+            <span className="cta-green-check bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
               <CheckCircleRoundedIcon className="text-green-500" />
               &nbsp;&nbsp; Expannd your Customer netwrok
             </span>
-            <span className="bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
+            <span className="cta-green-check bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
               <CheckCircleRoundedIcon className="text-green-500" />
               &nbsp;&nbsp; Flexible Consultation Options
             </span>
-            <span className="bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
+            <span className="cta-green-check bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
               <CheckCircleRoundedIcon className="text-green-500" />
               &nbsp;&nbsp; Control your schedule
             </span>
-            <span className="bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
+            <span className="cta-green-check bg-blue-300/10 px-10 py-6 rounded-[20px] text-xl w-110">
               <CheckCircleRoundedIcon className="text-green-500" />
               &nbsp;&nbsp; Secure and Fast Payments
             </span>

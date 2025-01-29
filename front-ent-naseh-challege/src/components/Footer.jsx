@@ -32,15 +32,15 @@ export default function Footer() {
           </li>
           <li>
             <a href="#">Blog</a>
-            <li>
-              <a href="#">Community</a>
-            </li>
-            <li>
-              <a href="#">Lawyers</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
+          </li>
+          <li>
+            <a href="#">Community</a>
+          </li>
+          <li>
+            <a href="#">Lawyers</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
           </li>
         </ul>
       </div>
@@ -57,9 +57,9 @@ export default function Footer() {
           </li>
           <li>
             <a href="#">Online Chat</a>
-            <li>
-              <a href="#">Whatsapp</a>
-            </li>
+          </li>
+          <li>
+            <a href="#">Whatsapp</a>
           </li>
         </ul>
       </div>
@@ -71,12 +71,12 @@ export default function Footer() {
         <h3 className="font-bold text-xl">Legal Links</h3>
         <ul>
           <li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#">Terms and Conditions</a>
-            </li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Terms and Conditions</a>
+          </li>
+          <li>
             <a href="#">Cookie Policy</a>
           </li>
         </ul>

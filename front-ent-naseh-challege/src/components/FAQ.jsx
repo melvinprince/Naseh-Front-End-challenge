@@ -73,7 +73,7 @@ function Accordion({ data }) {
           onOpen={setCurOpen}
           title={el.title}
           num={i}
-          key={el.title}
+          key={el.title + Math.random()}
         >
           {el.text}
         </AccordionItem>

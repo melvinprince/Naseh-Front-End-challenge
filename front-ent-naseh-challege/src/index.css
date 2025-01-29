@@ -11,14 +11,17 @@
 
   --color-button-red: #c52424;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 html {
   font-family: var(--font-roboto);
 }
+
 body {
   box-sizing: border-box;
 }
@@ -36,15 +39,21 @@ body {
   height: 35rem;
 }
 
-.mockup-container img {
-  transform: scale(2.5);
-}
+/* Responsive Design  */
 
-.mockup-container .img-1,
-.mockup-container .img-3 {
-  transform: translateY(60%) scale(2.5) translateX(-1%);
-}
+@media (max-width: 1650px) {
+  .book-consultation-content {
+    gap: 15px;
+  }
 
-.mockup-container .img-2 {
-  transform: translateY(-80%) scale(2.5) translateX(-1%);
+  .cta-green-check {
+    width: 26rem;
+  }
+
+  .why-choose-content {
+    width: 50%;
+  }
+  .why-choose-para {
+    width: 100%;
+  }
 }

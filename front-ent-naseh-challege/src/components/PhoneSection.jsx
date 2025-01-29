@@ -1,3 +1,4 @@
+import "./css/mockup.css";
 export default function PhoneSection() {
   return (
     <div className="flex h-[35rem] gap-10 mt-10 z-110">
